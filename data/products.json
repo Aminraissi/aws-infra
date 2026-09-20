@@ -1,0 +1,115 @@
+{
+  "products": [
+    {
+      "id": "sunglasses-001",
+      "name": "Sunglasses",
+      "category": "Accessories",
+      "price": 19.99,
+      "currency": "USD",
+      "description": "Stylish aviator sunglasses with UV protection. Perfect for sunny days and outdoor activities.",
+      "inStock": true,
+      "quantity": 45,
+      "features": ["UV protection", "Polarized lenses", "Metal frame", "Lightweight"],
+      "tags": ["summer", "outdoor", "fashion", "eyewear"]
+    },
+    {
+      "id": "tank-top-001",
+      "name": "Tank Top",
+      "category": "Clothing",
+      "price": 18.99,
+      "currency": "USD",
+      "description": "Black sleeveless tank top with glitter finish. Comfortable cotton blend material, perfect for casual wear.",
+      "inStock": true,
+      "quantity": 30,
+      "features": ["Cotton blend", "Glitter finish", "Machine washable", "Stretchy fabric"],
+      "sizes": ["S", "M", "L", "XL"],
+      "tags": ["clothing", "women", "casual", "summer"]
+    },
+    {
+      "id": "watch-001",
+      "name": "Watch",
+      "category": "Accessories",
+      "price": 109.99,
+      "currency": "USD",
+      "description": "Elegant gold-tone wristwatch with mesh strap. Water-resistant with Japanese quartz movement.",
+      "inStock": true,
+      "quantity": 15,
+      "features": ["Water resistant", "Quartz movement", "Mesh strap", "Gold tone"],
+      "tags": ["jewelry", "timepiece", "elegant", "gift"]
+    },
+    {
+      "id": "loafers-001",
+      "name": "Loafers",
+      "category": "Footwear",
+      "price": 89.99,
+      "currency": "USD",
+      "description": "Beige tassel loafers with textured finish. Premium suede-like material with comfortable cushioned sole.",
+      "inStock": true,
+      "quantity": 22,
+      "features": ["Cushioned sole", "Tassel detail", "Slip-on style", "Textured finish"],
+      "sizes": ["7", "8", "9", "10", "11"],
+      "tags": ["shoes", "casual", "men", "comfortable"]
+    },
+    {
+      "id": "hairdryer-001",
+      "name": "Hairdryer",
+      "category": "Home & Beauty",
+      "price": 24.99,
+      "currency": "USD",
+      "description": "Professional ionic hairdryer with multiple heat settings. Includes concentrator nozzle for precise styling.",
+      "inStock": true,
+      "quantity": 18,
+      "features": ["Ionic technology", "3 heat settings", "Cool shot button", "Concentrator nozzle"],
+      "tags": ["beauty", "hair care", "appliance", "professional"]
+    },
+    {
+      "id": "candle-holder-001",
+      "name": "Candle Holder",
+      "category": "Home Decor",
+      "price": 18.99,
+      "currency": "USD",
+      "description": "Decorative silver metallic candle holder with textured spherical design. Adds elegance to any room.",
+      "inStock": true,
+      "quantity": 35,
+      "features": ["Metallic finish", "Textured surface", "Modern design", "Stable base"],
+      "tags": ["home decor", "candle", "decorative", "gift"]
+    },
+    {
+      "id": "salt-pepper-shakers-001",
+      "name": "Salt & Pepper Shakers",
+      "category": "Kitchen",
+      "price": 18.49,
+      "currency": "USD",
+      "description": "Clear glass salt and pepper shaker set with adjustable grind settings. Modern minimalist design.",
+      "inStock": true,
+      "quantity": 40,
+      "features": ["Adjustable grind", "Clear glass", "Easy refill", "Modern design"],
+      "tags": ["kitchen", "dining", "cookware", "tableware"]
+    },
+    {
+      "id": "bamboo-jar-001",
+      "name": "Bamboo Glass Jar",
+      "category": "Kitchen",
+      "price": 5.49,
+      "currency": "USD",
+      "description": "Eco-friendly glass storage jar with bamboo lid. Perfect for storing dry goods, snacks, or leftovers.",
+      "inStock": true,
+      "quantity": 50,
+      "features": ["Bamboo lid", "Airtight seal", "Eco-friendly", "Dishwasher safe"],
+      "sizes": ["Small", "Medium", "Large"],
+      "tags": ["storage", "kitchen", "eco-friendly", "organization"]
+    },
+    {
+      "id": "mug-001",
+      "name": "Mug",
+      "category": "Kitchen",
+      "price": 8.99,
+      "currency": "USD",
+      "description": "Black matte exterior mug with gold interior. Ceramic construction, holds 12oz. Perfect for coffee or tea.",
+      "inStock": true,
+      "quantity": 60,
+      "features": ["Ceramic", "12oz capacity", "Gold interior", "Matte black exterior"],
+      "tags": ["coffee", "tea", "drinkware", "gift"]
+    }
+  ]
+}
