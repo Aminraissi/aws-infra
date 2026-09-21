@@ -22,4 +22,4 @@ override.tf.json
 *_override.tf.json
 variables.tf
 versions.tf
-
+terraform.tfvars.example
