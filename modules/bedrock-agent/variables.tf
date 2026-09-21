@@ -18,7 +18,26 @@ variable "model_id" {
 variable "judge_model_id" {
   description = "Model ID for LLM-as-a-Judge evaluation"
   type        = string
-  default     = "anthropic.claude-3-haiku-20240307-v1:0"
+  default     = "eu.anthropic.claude-3-haiku-20240307-v1:0"
+}
+
+variable "langfuse_public_key" {
+  description = "Langfuse public key for tracing"
+  type        = string
+  default     = ""
+}
+
+variable "langfuse_secret_key" {
+  description = "Langfuse secret key for tracing"
+  type        = string
+  sensitive   = true
+  default     = ""
+}
+
+variable "langfuse_host" {
+  description = "Langfuse host URL"
+  type        = string
+  default     = "https://cloud.langfuse.com"
 }
 
 variable "products_data_path" {

@@ -1,3 +1,6 @@
+# ── Copier ce fichier en terraform.tfvars et remplir les valeurs ──
+# cp terraform.tfvars.example terraform.tfvars
+
 aws_region         = "eu-west-1"
 project_name       = "online-boutique"
 cluster_name       = "online-boutique"
@@ -10,9 +13,12 @@ app_namespace      = "default"
 app_service_name   = "frontend"
 app_service_port   = 80
 health_check_path  = "/_healthz"
-account_id         = "142643433528"
+account_id         = "YOUR_ACCOUNT_ID"
 lbc_version        = "1.7.2"
-alb_dns_name       = "k8s-default-onlinebo-b1ff0ef623-2111350026.eu-west-1.elb.amazonaws.com"
 
-# cloudfront_secret – leave empty to auto-generate, or set your own value:
-# cloudfront_secret = "my-super-secret-value"
+# ALB DNS - obtenu après kubectl get ingress
+alb_dns_name = ""
+
+# Langfuse - obtenu sur cloud.langfuse.com
+langfuse_public_key = "pk-lf-..."
+langfuse_secret_key = "sk-lf-..."

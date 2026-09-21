@@ -121,10 +121,12 @@ resource "aws_lambda_function" "assistant" {
 
   environment {
     variables = {
-      DYNAMODB_TABLE = aws_dynamodb_table.sessions.name
-      MODEL_ID       = var.model_id
-      JUDGE_MODEL_ID = var.judge_model_id
-      AWS_REGION_NAME = data.aws_region.current.name
+      DYNAMODB_TABLE      = aws_dynamodb_table.sessions.name
+      MODEL_ID            = var.model_id
+      AWS_REGION_NAME     = data.aws_region.current.name
+      LANGFUSE_PUBLIC_KEY = var.langfuse_public_key
+      LANGFUSE_SECRET_KEY = var.langfuse_secret_key
+      LANGFUSE_HOST       = var.langfuse_host
     }
   }
 

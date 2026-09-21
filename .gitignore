@@ -13,3 +13,16 @@ apply_output.txt
 # Secrets
 *.pem
 *.key
+
+# Sensitive Terraform files
+terraform.tfvars
+*.auto.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+variables.tf
+versions.tf
+
+# Rapport (pas sur le repo infra)
+../rapport/

@@ -142,4 +142,6 @@ module "bedrock_agent" {
   model_id            = "eu.anthropic.claude-sonnet-4-5-20250929-v1:0"
   judge_model_id      = "eu.anthropic.claude-sonnet-4-5-20250929-v1:0"
   products_data_path  = "${path.module}/data/products.json"
+  langfuse_public_key = var.langfuse_public_key
+  langfuse_secret_key = var.langfuse_secret_key
 }

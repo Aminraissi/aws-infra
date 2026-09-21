@@ -73,7 +73,7 @@ variable "health_check_path" {
 variable "account_id" {
   description = "AWS Account ID"
   type        = string
-  default     = "142643433528"
+  default     = ""
 }
 
 variable "cloudfront_secret" {
@@ -87,4 +87,17 @@ variable "lbc_version" {
   description = "AWS Load Balancer Controller Helm chart version"
   type        = string
   default     = "1.7.2"
+}
+
+variable "langfuse_public_key" {
+  description = "Langfuse public key for LLM observability tracing"
+  type        = string
+  default     = ""
+}
+
+variable "langfuse_secret_key" {
+  description = "Langfuse secret key for LLM observability tracing"
+  type        = string
+  sensitive   = true
+  default     = ""
 }
